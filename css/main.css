@@ -10,12 +10,16 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
+  font-family: "Crimson-Text", serif;
   color: #222;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  padding: 0 1rem;
 }
 
 article {
@@ -42,8 +46,31 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: 0;
 }
 
 .quote {
   color: #999;
+}
+
+ol {
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
 }
