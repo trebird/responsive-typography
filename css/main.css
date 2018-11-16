@@ -107,6 +107,10 @@ article ol {
     margin-bottom: 1.4rem;
   }
 
+  article > p:last-child {
+    padding-bottom: 1.4rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -140,10 +144,21 @@ article ol {
 
   article {
     margin: 1.5rem auto;
+    padding: 0 1rem;
   }
 
   blockquote {
     margin: 1.5rem auto;
+  }
+
+  article ol {
+    margin-bottom: 1.5rem;
+    padding: 0;
+  }
+
+  article > p:last-child {
+    margin-bottom: 1.3rem;
+    padding-bottom: 1.5rem;
   }
 
 }
