@@ -20,12 +20,14 @@ html {
 }
 
 body {
-  margin: 1.3rem auto;
+  margin: 0;
+  margin-bottom: 1.3rem;
   padding: 0 1rem;
 }
 
 article {
   max-width: 43em;
+  margin: 1.3rem auto;
 }
 
 article h1 {
